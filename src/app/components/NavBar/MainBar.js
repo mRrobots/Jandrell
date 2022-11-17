@@ -18,7 +18,7 @@ function CustomLink({ to, children, ...props }) {
     const isActive = useMatch({ path: resolvedPath.pathname, end: true })
   
     return (
-      <li className={isActive ? "active" : ""}>
+      <li className={isActive ? style.active : ""}>
         <Link to={to} {...props}>
           {children}
         </Link>

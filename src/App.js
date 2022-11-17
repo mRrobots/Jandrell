@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <MainBar/>
-      
+      <div className="none">
         <Routes>
           <Route path ="/" element = {<Home/>} />
           <Route path ="/news" element = {<Events/>} />
@@ -17,7 +17,7 @@ function App() {
           <Route path ="/parents" element = {<ParentPortal/>} />
           <Route path ="/results" element = {<Results/>} />
         </Routes>
-      
+        </div>
     </div>
   );
 }

@@ -7,8 +7,8 @@ body{
 }
 
 .mainbar{
-    background-color: rgb(34, 34, 238);
-    color: rgb(226, 242, 181);
+    background-color: #4a32a8;
+    color: rgb(211, 255, 90);
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -17,7 +17,7 @@ body{
 }
 
 .schoolname{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .mainbar ul{
@@ -38,10 +38,12 @@ body{
 }
 
 .mainbar li:active{
-    background-color: #555;
+    background-color: rgb(48, 41, 41);
 }
 
 .mainbar li:hover{
     background-color: #777;
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 50%;
 }
 
