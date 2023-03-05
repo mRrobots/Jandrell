@@ -1,10 +1,12 @@
 import HomeBar from "../components/NavBar/HomeBar";
+import Nav from "../components/NavBar/Nav";
 
 export default function Home()
 {
     return(
         <div>
-            <HomeBar/>
+            <Nav></Nav>
+            {/* <HomeBar/> */}
         </div>
     )
 }

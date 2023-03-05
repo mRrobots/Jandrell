@@ -4,15 +4,15 @@ function HomeBar(){
     return(
         <nav className = {style.mainbar}>
             <div className="items">
-            <ul>
-            <CustomLink to="/home">HOME</CustomLink>
-            <CustomLink to="/about">ABOUT</CustomLink>
-            <CustomLink to="/aim">AIM AND OBJECTIVIES</CustomLink>
-            <CustomLink to="/admission">ADMISSION</CustomLink>
-            <CustomLink to="/about">TOP ACHIEVERS</CustomLink>
-            <CustomLink to="/aim">ACTIVITIES</CustomLink>
-            <CustomLink to="/admission">CONTACT US</CustomLink>
-            </ul>
+              <ul>
+                <CustomLink to="/home">HOME</CustomLink>
+                <CustomLink to="/about">ABOUT</CustomLink>
+                <CustomLink to="/aim">AIM AND OBJECTIVIES</CustomLink>
+                <CustomLink to="/admission">ADMISSION</CustomLink>
+                <CustomLink to="/about">TOP ACHIEVERS</CustomLink>
+                <CustomLink to="/aim">ACTIVITIES</CustomLink>
+                <CustomLink to="/admission">CONTACT US</CustomLink>
+              </ul>
             </div>
             <div className="search">
                 <span className="search"></span>
@@ -21,10 +21,9 @@ function HomeBar(){
                 <span className="cancel"></span>
             </div>
             <form action="#" >
-                <input type="search" className="search_d" placeholder="SEARCH"></input>
+                <input type="search" className="search_d" placeholder="SEARCH..."></input>
                 <button type="submit" className="search_b"></button>
             </form>
-
         </nav>
     )
 }
