@@ -10,12 +10,12 @@ function App() {
   return (
     <div>
       <Home/>
-      <Routes>
+      {/* <Routes>
           <Route path ="/news" element = {<Events/>} />
           <Route path ="/gallery" element = {<Gallery/>} />
           <Route path ="/parents" element = {<ParentPortal/>} />
           <Route path ="/results" element = {<Results/>} />
-        </Routes>
+        </Routes> */}
         </div>
   );
 }

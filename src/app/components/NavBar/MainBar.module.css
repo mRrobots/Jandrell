@@ -11,16 +11,16 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 2rem; */
     padding: 0 1rem;
 }
 .schoollogo{
     display: flex;
     flex-direction:column;
-    /* border:solid #ffffff ; */
+    color: rgb(111, 85, 36);
 }
 .schoolname{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
+    
 }
 .mainbar ul{
     height: 0%;
@@ -34,7 +34,6 @@ body{
     gap: 1rem;
 }
 .mainbar ul li{
-    border: solid 1px blue;
     color: rgb(0, 0, 0);
     padding: 5px;
     text-align: center;
@@ -49,7 +48,8 @@ body{
     pad: .25rem;
 }
 .mainbar li:hover{
-    background-color: #34348e;
-    color: white;
+    background-color: #141456;
+    color: orange;
+    border-radius: 10%;
 }
 

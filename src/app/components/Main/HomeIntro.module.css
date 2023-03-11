@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+
+.home{
+    /* background-color: rgb(191, 100, 100); */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.welcome{
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
