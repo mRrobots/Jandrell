@@ -1,13 +1,13 @@
 import HomeBar from "./HomeBar";
 import MainBar from "./MainBar";
 
-function Nav(){
-    return(
-        <nav>
-            <MainBar/>
-            {/* <HomeBar/> */}
-        </nav>
-    )
+function Nav() {
+  return (
+    <nav>
+      <MainBar />
+      {/* <HomeBar /> */}
+    </nav>
+  );
 }
 
-export default Nav ;
+export default Nav;
