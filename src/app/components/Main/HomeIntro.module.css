@@ -1,18 +1,53 @@
 body{
     margin: 0;
+    box-sizing: border-box;
 }
 
 .home{
-    /* background-color: rgb(191, 100, 100); */
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #bfbfbf;
+}
+
+.intro {
+    background-color: #555555;
+    text-align: center;
+}
+.intro h1{
+    padding: 0 5px;
+    text-shadow: 2px 2px 3px wheat;
+}
+.intro p{
+    font-size: 20px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#000000;
 }
 
 .welcome{
-    /* background-color: aliceblue; */
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-
+    justify-content:space-around;
+    align-content: center;
+    border: 2px solid black;
 }
+
+.welcome img{
+    padding: 5px 0;
+    width: 193px;
+    height: 193px;
+}
+
+.message{
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    /* height: 200px; */
+    text-align: center;
+    color: #000000;
+}
+
