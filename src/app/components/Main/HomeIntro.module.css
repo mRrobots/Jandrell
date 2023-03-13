@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.intro {
+    color: rgb(225, 203, 162);
+    background-color: #141456;
+    text-align: center;
+}
+.intro h1{
+    font-weight: bold;
+    padding: 0 5px;
+    text-shadow: 2px 2px 3px rgb(52, 51, 50);
+}
+.intro p{
+    font-size: 20px;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.welcome{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+}
+
+.welcome img{
+    padding: 5px 0;
+    width: 193px;
+    height: 193px;
+}
+
+.message{
+    text-align: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    color: #000000;
+}
+

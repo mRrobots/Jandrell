@@ -1,29 +1,23 @@
 import style from "./MainBar.module.css";
 import {Link,useMatch,useResolvedPath} from "react-router-dom"
+
+import CustomLink from "./CustomLink";
+import Logo from "./Logo";
 function MainBar(){
     return(
-        <nav className = {style.mainbar}>
+        <div className = {style.mainbar}>
+          <div className={style.schoollogo}>
+            <Logo/>
             <Link to = "/" className={style.schoolname}>Jandrell Secondary Scool</Link>
+          </div>
             <ul>
-            <CustomLink to="/news">News</CustomLink>
-            <CustomLink to="/gallery">Gallery</CustomLink>
-            <CustomLink to="/results">Results</CustomLink>
-            <CustomLink to="/parents">Parents Portal</CustomLink>
+              <CustomLink to="/news">News</CustomLink>
+              <CustomLink to="/gallery">Gallery</CustomLink>
+              <CustomLink to="/results">Results</CustomLink>
+              <CustomLink to="/parents">Parents Portal</CustomLink>
             </ul>
-        </nav>
+        </div>
     )
 }
-function CustomLink({ to, children, ...props }) {
-    const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-  
-    return (
-      <li className={isActive ? style.active : ""}>
-        <Link to={to} {...props}>
-          {children}
-        </Link>
-      </li>
-    )
-  }
 
 export default MainBar;

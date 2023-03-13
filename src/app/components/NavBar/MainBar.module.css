@@ -5,29 +5,41 @@
 body{
     margin: 0;
 }
-
 .mainbar{
-    background-color: #4a32a8;
-    color: rgb(211, 255, 90);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
-    gap: 2rem;
+    align-items: center;
     padding: 0 1rem;
+    border-bottom:1px solid #141456;
 }
-
+.schoollogo{
+    display: flex;
+    flex-direction:column;
+    color: rgb(0, 0, 0);
+}
 .schoolname{
-    font-size: 2.5rem;
+    font-size: 2.0rem;
+    
 }
-
 .mainbar ul{
+    height: 0%;
     padding: 0;
     margin: 0;
     list-style: none;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 1rem;
 }
-
+.mainbar ul li{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
 .mainbar a{
     color: inherit;
     text-decoration: none;
@@ -36,14 +48,9 @@ body{
     align-items:center;
     pad: .25rem;
 }
-
-.mainbar li:active{
-    background-color: rgb(48, 41, 41);
-}
-
 .mainbar li:hover{
-    background-color: #777;
-    border: 0px solid rgb(0, 0, 0);
-    border-radius: 50%;
+    background-color: #141456;
+    color: orange;
+    border-radius: 10%;
 }
 
