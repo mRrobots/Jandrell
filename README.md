@@ -1,9 +1,9 @@
 # Jandrell High School website
 
 ## To run the app
--clone the project
--move into the main folder Jandrell_Project
--npm install which get all modules needed
+- clone the project
+- move into the main folder Jandrell_Project
+- npm install which get all modules needed
 - npm start
 
 ##Design Figma
