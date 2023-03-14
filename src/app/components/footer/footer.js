@@ -1,13 +1,6 @@
 import React from "react";
 import style from "./Footer.module.css";
 function Footer() {
-  const footer = {
-    "text-align": "center",
-    "border-top": "1px solid black",
-    padding: "3px",
-    "background-color": "white",
-    color: "black",
-  };
   return (
     <footer className={style.footer}>
       <div className={style.box}>
