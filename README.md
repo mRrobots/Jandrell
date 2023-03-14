@@ -6,5 +6,5 @@
 - npm install which get all modules needed
 - npm start
 
-##Design Figma
+## Design Figma
 -https://www.figma.com/file/DIj603n0lOVxnrnjaceOgM/Jandrell-Design?node-id=48%3A66&t=5RlpRKYfBNBzLogq-0
