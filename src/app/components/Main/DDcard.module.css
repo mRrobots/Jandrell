@@ -1,7 +1,10 @@
 .ddcard{
+    width: 400px;
     padding: 25px;
     display: flex;
     flex-direction: column;
+    height: 350px;
+    /* border: 2px solid black; */
 }
 
 .heading{
@@ -62,7 +65,7 @@
 button{
     border: none;
     background-color:#141456;
-    color: rgb(255, 209, 125);
+    color: rgb(255, 255, 255);
     padding: 5px;
     text-align: center;
     text-decoration: none;
@@ -70,6 +73,7 @@ button{
     cursor: pointer;
     border-radius: 5px;
     height: 35px;
+    width: 100px;
 }
 
 button:hover{
