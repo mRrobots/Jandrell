@@ -13,7 +13,6 @@
 - learners will be able to 
   - See current news happening around the town
   - See school gallery
-  - 
   - Learn more about school
    - about
    - mission
@@ -23,4 +22,5 @@
   - Track their progress on a Dashboard
     - here they can also see their result
   - New learners can register for attending the school 
-#### These are ideas I'm planning to implement, If you more interesting idea that you think i cound implement,hit me up,and if u wann join me in this project, let's get it, more to fun and react /:
+  - ...
+#### These are ideas I'm planning to implement, If you have more interesting ideas that you think i cound implement or we could,hit me up,and if u wanna join me in this crazy project, let's get it, more to fun and react /:
