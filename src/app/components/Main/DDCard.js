@@ -57,6 +57,7 @@ export default function DDCard() {
     setStart(start - 1);
     setEnd(end - 1);
   }
+
   function DateEvent(props) {
     return (
       <>
@@ -81,8 +82,6 @@ export default function DDCard() {
   const backButton = <button onClick={handleBack}>Back</button>;
   const nextButton = <button onClick={handleNext}>Next</button>;
 
-  {
-  }
   return (
     <div className={style.ddcard}>
       <div className={style.heading}>DIARY DATE</div>
