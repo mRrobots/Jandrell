@@ -5,7 +5,7 @@ function Nav() {
   return (
     <nav>
       <MainBar />
-      {/* <HomeBar /> */}
+      <HomeBar />
     </nav>
   );
 }
