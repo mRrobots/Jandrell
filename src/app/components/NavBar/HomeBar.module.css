@@ -7,30 +7,29 @@ body{
 }
 
 .mainbar{
-    background-color: #ff8585;
+    background-color: #141456;
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 20px;
 }
 
 .mainbar ul{
-    /* margin: 0; */
-    /* padding: 0; */
+    margin: 10px;
+    width: 70%;
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
     padding: 0 10px;
 }
 
 .mainbar ul li{
-    border: solid 1px blue;
-    color: rgb(0, 0, 0);
+    /* border: solid 1px rgb(211, 211, 219); */
+    color: orange;
     padding: 5px;
     text-align: center;
     text-decoration: none;
@@ -44,18 +43,18 @@ body{
 }
 
 .mainbar li:hover{
-    background-color: #34348e;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .mainbar form{
+    width: 30%;
     display: flex;
     flex-direction: row;
     height: 40px;
     padding: 2px;
     background: #ffffff;
     border-radius: 5px;
-    
 }
 
 .mainbar form input{
@@ -63,7 +62,7 @@ body{
     height: 100%;
     padding: 0 10px;
     color: #e6e6e6;
-    font-size: 17px;
+    font-size: 15px;
     border: none;
     font-weight: 500;
     background: none;
@@ -71,13 +70,15 @@ body{
 
 .mainbar form button{
     padding: 0 15px;
-    color: #fff;
-    background: #586ba5;
+    color: #ffffff;
+    background: #9c98a3;
     border: none;
     cursor: pointer;
-
+    border-radius: 0px;
 }
 
 .mainbar form button:hover{
     background: #23315b;
+    color: black;
 }
+
