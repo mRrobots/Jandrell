@@ -1,5 +1,5 @@
 import style from "./Gallery.module.css";
-import avatar from "../../assets/new.jpg";
+import avatar from "../../../assets/new.jpg";
 
 export default function Gallery() {
   return (

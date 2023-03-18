@@ -5,13 +5,13 @@ function HomeBar() {
   return (
     <div className={style.mainbar}>
       <ul>
-        <CustomLink to="/home">HOME</CustomLink>
+        <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="/about">ABOUT</CustomLink>
         <CustomLink to="/aim">AIM AND OBJECTIVIES</CustomLink>
         <CustomLink to="/admission">ADMISSION</CustomLink>
-        <CustomLink to="/about">TOP ACHIEVERS</CustomLink>
-        <CustomLink to="/aim">ACTIVITIES</CustomLink>
-        <CustomLink to="/admission">CONTACT US</CustomLink>
+        <CustomLink to="/topachievers">TOP ACHIEVERS</CustomLink>
+        <CustomLink to="/activities">ACTIVITIES</CustomLink>
+        <CustomLink to="/contact">CONTACT US</CustomLink>
       </ul>
       <form action="#">
         <input type="search" placeholder="SEARCH..."></input>

@@ -1,5 +1,5 @@
 import style from "./News.module.css";
-import avatar from "../../assets/new.jpg";
+import avatar from "../../../assets/new.jpg";
 export default function News() {
   function News(props) {
     return (
