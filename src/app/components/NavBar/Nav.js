@@ -3,9 +3,11 @@ import MainBar from "./MainBar";
 
 function Nav() {
   return (
-    <nav>
+    <nav
+    // style={{ position: "fixed", width: "100%", overflow: "hidden", top: "0" }}
+    >
       <MainBar />
-      {/* <HomeBar /> */}
+      <HomeBar />
     </nav>
   );
 }

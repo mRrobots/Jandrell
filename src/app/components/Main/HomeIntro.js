@@ -11,6 +11,7 @@ export default function HomeIntro() {
 
         <hr />
       </div>
+      {/* some similarity with new, try to use a same component */}
       <div className={style.welcome}>
         <img src={avatar}></img>
         <div className={style.message}>
