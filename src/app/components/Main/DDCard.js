@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import style from "./DDcard.module.css";
+import ViewCalendar from "./ViewCalendar";
 
 export default function DDCard() {
   const DateLists = [
@@ -47,6 +48,7 @@ export default function DDCard() {
 
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(3);
+  const [calendar, setCalendar] = useState(false);
 
   function handleNext() {
     setStart(start + 1);
@@ -76,22 +78,37 @@ export default function DDCard() {
     );
   }
 
+  function Calendar() {
+    console.log(calendar);
+    // if (calendar) {
+    // setCalendar(false);
+    // } else {
+    setCalendar(true);
+    // }
+    // return <ViewCalendar />;
+  }
+
   const isBackButton = start > 0;
   const isNextButton = end <= DateLists.length - 1;
 
   const backButton = <button onClick={handleBack}>Back</button>;
   const nextButton = <button onClick={handleNext}>Next</button>;
+  const calendarButton = <button onClick={Calendar}>Calendar</button>;
 
   return (
     <div className={style.ddcard}>
       <div className={style.heading}>DIARY DATE</div>
       <div className={style.main}>
-        <DateEvent DateLists={DateLists} start={start} end={end} />
+        {calendar ? (
+          <ViewCalendar />
+        ) : (
+          <DateEvent DateLists={DateLists} start={start} end={end} />
+        )}
       </div>
       <div className={style.footer}>
         {isNextButton ? nextButton : <></>}
         {isBackButton ? backButton : <></>}
-        <button>CALENDAR</button>
+        <button onClick={Calendar}>CALENDAR</button>
       </div>
     </div>
   );
