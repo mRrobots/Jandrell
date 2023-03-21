@@ -77,7 +77,7 @@ export default function DDCard() {
   }
 
   const isBackButton = start > 0;
-  const isNextButton = end <= DateLists.length + 1;
+  const isNextButton = end <= DateLists.length - 1;
 
   const backButton = <button onClick={handleBack}>Back</button>;
   const nextButton = <button onClick={handleNext}>Next</button>;
