@@ -22,5 +22,12 @@
   - Track their progress on a Dashboard
     - here they can also see their result
   - New learners can register for attending the school 
-  - ...
+- Admin
+  - Have admin access.
+  - View application.
+  - Approve and reject new application
+  -Update Website e.g upload pictures for the school
+ -Parent Portal
+  - Parent can see the progress,
+  - more like a dashboard
 #### These are ideas I'm planning to implement, If you have more interesting ideas that you think i cound implement or we could,hit me up,and if u wanna join me in this crazy project, let's get it, more to fun and react /:
