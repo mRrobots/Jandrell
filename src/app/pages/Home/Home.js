@@ -14,6 +14,7 @@ import Admission from "../Admission/Admission";
 import About from "../About/About";
 import style from "./Home.module.css";
 import NewComponent from "../News/NewComponent";
+import GalleryComponent from "../Gallery/GalleryComponent";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <Route path="/admission" element={<Admission />} />
         <Route path="/about" element={<About />} />
         <Route path="/news/:id" element={<NewComponent />} />
+        <Route path="/gallery/:section" element={<GalleryComponent />} />
       </Routes>
       <Footer />
     </div>
