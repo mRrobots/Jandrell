@@ -51,8 +51,10 @@ export default function DDCard() {
   const [calendar, setCalendar] = useState(false);
 
   function handleNext() {
-    setStart(start + 1);
-    setEnd(end + 1);
+    if (!calendar) {
+      setStart(start + 1);
+      setEnd(end + 1);
+    }
   }
 
   function handleBack() {
@@ -80,12 +82,11 @@ export default function DDCard() {
 
   function Calendar() {
     console.log(calendar);
-    // if (calendar) {
-    // setCalendar(false);
-    // } else {
-    setCalendar(true);
-    // }
-    // return <ViewCalendar />;
+    if (calendar) {
+      setCalendar(false);
+    } else {
+      setCalendar(true);
+    }
   }
 
   const isBackButton = start > 0;

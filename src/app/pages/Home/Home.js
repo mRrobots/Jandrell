@@ -13,6 +13,7 @@ import TopAchievers from "../TopAchievers/TopAchievers";
 import Admission from "../Admission/Admission";
 import About from "../About/About";
 import style from "./Home.module.css";
+import NewComponent from "../News/NewComponent";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         <Route path="/topachievers" element={<TopAchievers />} />
         <Route path="/admission" element={<Admission />} />
         <Route path="/about" element={<About />} />
+        <Route path="/news/:id" element={<NewComponent />} />
       </Routes>
       <Footer />
     </div>
